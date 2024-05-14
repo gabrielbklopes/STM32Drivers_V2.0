@@ -106,11 +106,6 @@ typedef enum{
  **********************************************************************************/
 
 /*
- * Peripheral Clock setup
- */
-//void GPIO_PeriClockControl(GPIO_TypeDef *pGPIOx, uint8_t EnorDi);
-
-/*
  * GPIO CONFIGURATION FUNCTIONS
  */
 
