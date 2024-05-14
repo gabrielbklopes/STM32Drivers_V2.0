@@ -1,0 +1,10 @@
+core_cm3.h:1511:22:__NVIC_EnableIRQ	2
+stm32f103xx_gpio_driver.c:92:6:gpio_init	10
+stm32f103xx_gpio_driver.c:119:6:config_pin	10
+stm32f103xx_gpio_driver.c:155:6:config_pin_speed	4
+stm32f103xx_gpio_driver.c:170:6:gpio_write	2
+stm32f103xx_gpio_driver.c:181:9:gpio_read	1
+stm32f103xx_gpio_driver.c:190:6:gpio_toggle	1
+stm32f103xx_gpio_driver.c:197:6:configure_gpio_interrupt	72
+stm32f103xx_gpio_driver.c:440:6:enable_gpio_interrupt	1
+stm32f103xx_gpio_driver.c:448:6:clear_gpio_interrupt	1
