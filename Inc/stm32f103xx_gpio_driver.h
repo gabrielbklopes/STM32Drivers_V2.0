@@ -60,8 +60,8 @@ typedef enum{
  */
 
 //PIN MODE
-#define OUTPUT_MODE						((uint32_t) 0x01)
-#define INPUT_MODE						((uint32_t) 0x02)
+#define OUTPUT_MODE					((uint32_t) 0x01)
+#define INPUT_MODE					((uint32_t) 0x02)
 
 //Define the pin mode
 #define GPIO_MODE_IN					((uint32_t)0x00)
@@ -78,14 +78,14 @@ typedef enum{
 //if pin mode is defined as output
 #define GPIO_OUT_PUSHPULL				((uint32_t)0x00)
 #define GPIO_OUT_OPENDRAIN				((uint32_t)0x01)
-#define	GPIO_ALTFN_OUT_PUSHPULL			((uint32_t)0x02)
-#define GPIO_ALTFN_OUT_OPENDRAIN		((uint32_t)0x03)
+#define	GPIO_ALTFN_OUT_PUSHPULL				((uint32_t)0x02)
+#define GPIO_ALTFN_OUT_OPENDRAIN			((uint32_t)0x03)
 
 //HIGH BIT POSITIONS FOR CRH REGISTER CNFYG AND MODE
 #define CNF_POS_BIT1					(PINPOS[pinNumber] + 2)
 #define CNF_POS_BIT2					(PINPOS[pinNumber] + 3)
 
-#define GPIO_PCLK_EN_ALT_FUNC			(RCC->APB2ENR |= (1 << 0))
+#define GPIO_PCLK_EN_ALT_FUNC				(RCC->APB2ENR |= (1 << 0))
 #define GPIOA_PCLK_EN					(RCC->APB2ENR |= (1 << 2))
 #define GPIOB_PCLK_EN					(RCC->APB2ENR |= (1 << 3))
 #define GPIOC_PCLK_EN					(RCC->APB2ENR |= (1 << 4))
